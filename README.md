@@ -10,12 +10,17 @@ It also requires a  systemd service to mount the virtualized directories at boot
 The whole system is quite complicated, but here's an initial description of the files:
 
 winemgr.sh, winemgr_vars.sh                               - The main Wine Manager files
+
 token_parser.sh                                           - A full fledged token parser.
-key_file.sh, key_file_vars.sh                             - Code to enable the transparent storage of key/value pairs.
+
+key_file.sh, key_file_vars.sh                             - Code to enable the transparent storage of key/value     pairs.
+
 standard_vars.sh, standard_main.sh, standard_functions.sh - A plethora of standard functions I use for a lot of things.
+
 mergerfs_bootmount_username.service                       - A sample systemd file used to create the virtualized XDG
                                                             menu file system.
-mda.sh, mada_vars.sh                                      - Arbitrary multi-dimensional array functions. Note these are
-                                                            not yet used in the existing version, and are being
+                                                            
+mda.sh, mada_vars.sh                                      - Arbitrary multi-dimensional array functions. Note these 
+                                                            are not yet used in the existing version, and are being
                                                             integrated into the next version. They are just included
                                                             for completeness.
