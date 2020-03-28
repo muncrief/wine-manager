@@ -1,0 +1,12 @@
+[Unit]
+Description=Mergerfs Boot Mount Startup Service - User username
+
+[Service]
+Type=forking
+User=username
+Group=username
+ExecStart=/usr/local/bin/mergerfs_bootmount_username.sh
+RemainAfterExit=yes
+
+[Install]
+WantedBy=multi-user.target
