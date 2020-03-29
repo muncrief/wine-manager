@@ -1,16 +1,3 @@
-
-Skip to content
-Pull requests
-Issues
-Marketplace
-Explore
-@muncrief
-Learn Git and GitHub without any code!
-
-Using the Hello World guide, you’ll start a branch, write comments, and open a pull request.
-Illumina /
-licenses
-
                     GNU GENERAL PUBLIC LICENSE
                        Version 3, 29 June 2007
 
