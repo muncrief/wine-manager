@@ -1,4 +1,4 @@
-# wine-manager
+# Wine Manager
 Manages multiple Wine versions and bottles so they can be used simultaneously. Also creates an integrated customizable XDG menu that can be used to hide or reveal various bottle menus.
 
 This is just the initial upload of the Wine Manager code so that those who are interested can peruse it.
